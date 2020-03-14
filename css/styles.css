@@ -1,0 +1,168 @@
+body, html, h1, h2, h3, p, img{
+    margin: 0;
+}
+body{
+    background-color: #e4f9f5;
+    text-align:center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    color: #66bfbf;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66bfbf;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #11999E;
+    line-height: 2;
+}
+p{
+    font-family: 'Merriweather', serif;
+}
+hr{
+    margin:2.5% auto;
+    border: dotted grey 6px;
+    border-bottom: none;
+    width: 4%;
+
+}
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align:right;
+}
+.intro{
+    text-align: center;
+}
+.intro .top-cloud{
+    width: 10%;
+    position: relative;
+    right: 20%;
+}
+.intro .bottom-cloud{
+    width: 10%;
+    position: absolute;
+    right: 15%;
+}
+.intro .mountain{
+    width: 80%;
+    margin-top: 50px;
+}
+.profile img{
+    max-width: 20%;
+    border-radius: 200px;
+    margin: 2.5%;
+}
+
+.profile p,.skills p{
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.skills{
+    margin: auto 50px;
+}
+.skills h2{
+    position: relative;
+    top: 20px;
+}
+.skills-row{
+    width: 70%;
+    margin: 50px auto;
+    text-align: left;
+}
+.skills-row img{
+    max-width: 100px;
+}
+.skills-row .webdev-img{
+    float: left;
+    margin-right: 30px;
+    padding-top: 8%;
+}
+.skills-row .sqa-img{
+    float: right;
+    margin-left: 30px;
+    padding-top: 6%;
+}
+.skills-row h3{
+    padding-top: 5%;
+}
+.skills-row p{
+    text-align: justify;
+}
+.contact p{
+    margin: 50px;
+}
+.contact .contactButton {
+    margin-bottom: 7%;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0cc7c7), color-stop(1, #059494));
+	background:-moz-linear-gradient(top, #0cc7c7 5%, #059494 100%);
+	background:-webkit-linear-gradient(top, #0cc7c7 5%, #059494 100%);
+	background:-o-linear-gradient(top, #0cc7c7 5%, #059494 100%);
+	background:-ms-linear-gradient(top, #0cc7c7 5%, #059494 100%);
+	background:linear-gradient(to bottom, #0cc7c7 5%, #059494 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0cc7c7', endColorstr='#059494',GradientType=0);
+	background-color:#0cc7c7;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.contact .contactButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #059494), color-stop(1, #0cc7c7));
+	background:-moz-linear-gradient(top, #059494 5%, #0cc7c7 100%);
+	background:-webkit-linear-gradient(top, #059494 5%, #0cc7c7 100%);
+	background:-o-linear-gradient(top, #059494 5%, #0cc7c7 100%);
+	background:-ms-linear-gradient(top, #059494 5%, #0cc7c7 100%);
+	background:linear-gradient(to bottom, #059494 5%, #0cc7c7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#059494', endColorstr='#0cc7c7',GradientType=0);
+	background-color:#059494;
+}
+.contact .contactButton:active {
+	position:relative;
+	top:1px;
+}
+
+footer{
+    background-color: #66BFBF;
+}
+footer .link{
+    width: 100%;
+    padding: 25px 0;
+}
+footer .link a{
+    padding: 0 25px;
+    color: #e4f9f5;
+    text-decoration: none;
+}
+footer p{
+    width: 100%;
+    padding: 25px 0;
+    color:#EAF6F6;
+}
+footer img{
+    width: 1%;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    /* For mobile phones: */
+    [class*="skills-row"] {
+      width: 100%;
+    }
+    .skills-row .sqa-img, .skills-row .webdev-img{
+        padding-top: 7%;
+    }
+}
