@@ -21,15 +21,15 @@ h3{
     color: #11999E;
     line-height: 2;
 }
-p{
+p, label, input{
     font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
 }
 hr{
     margin:2.5% auto;
     border: dotted grey 6px;
     border-bottom: none;
     width: 4%;
-
 }
 .align-left{
     text-align: left;
@@ -98,7 +98,29 @@ hr{
 .contact p{
     margin: 50px;
 }
+.contact .contactForm{
+    margin: auto;
+    width: 50%;
+}
+.contact .formContainer{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    text-align: left;
+}
+.contact .contactForm input{
+    width: 275px;
+    max-width:400px;
+    margin: 10px 0;
+}
+.contact .contactForm textarea{
+    min-width: 275px;
+    min-height: 100px;
+    max-width: 400px;
+    margin: 10px 0;
+}
 .contact .contactButton {
+    margin-left:30%;
     margin-bottom: 7%;
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0cc7c7), color-stop(1, #059494));
 	background:-moz-linear-gradient(top, #0cc7c7 5%, #059494 100%);
@@ -111,14 +133,14 @@ hr{
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	border-radius:10px;
-	display:inline-block;
+    display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Merriweather', serif;
 	font-size:17px;
 	padding:12px 37px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #283966;
+    text-shadow:0px 1px 0px #283966;
 }
 .contact .contactButton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #059494), color-stop(1, #0cc7c7));
@@ -143,7 +165,7 @@ footer .link{
     padding: 25px 0;
 }
 footer .link a{
-    padding: 0 25px;
+    margin: 0 25px;
     color: #e4f9f5;
     text-decoration: none;
 }
@@ -153,7 +175,7 @@ footer p{
     color:#EAF6F6;
 }
 footer img{
-    width: 1%;
+    width: 50px;
 }
 
 @media only screen and (max-width: 768px) 
@@ -164,5 +186,8 @@ footer img{
     }
     .skills-row .sqa-img, .skills-row .webdev-img{
         padding-top: 7%;
+    }
+    footer img{
+        min-width:50px;
     }
 }

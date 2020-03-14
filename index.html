@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
       rel="stylesheet"
@@ -37,34 +37,77 @@
         />
         <h3>Front-End Development</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minima
-          quidem doloribus molestiae eligendi, perferendis, maxime numquam
-          blanditiis laudantium nulla ullam, obcaecati temporibus. Tenetur
-          molestias, incidunt beatae reprehenderit adipisci alias!
+          I can put layouts together from design concept to deployment with the
+          use of HTML, CSS and UI frameworks like Bootstrap5 and Semantic UI. I
+          am using javascript and jQuery to make the website elements alive when
+          they need to!
         </p>
       </div>
       <div class="skills-row">
         <img class="sqa-img" src="images/software-qa-img2.png" />
         <h3 class="align-right">Software Quality Assurance Analyst</h3>
         <p class="align-right">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, esse
-          cumque sit architecto laboriosam cupiditate excepturi ipsa amet
-          quibusdam delectus quasi aperiam odit vitae corporis!
+          I've worked on a lot of projects from ad banners, web sites, web apps
+          to phone apps(iOS and Android). Creating test scripts, executing test
+          cases to detailed bug reporting. The challenge on finding the bug
+          under a haystack is fun and exciting!
         </p>
       </div>
     </div>
     <hr />
     <div class="contact">
       <h2>Get In Touch</h2>
-      <p>Let's create awesome stuff together</p>
-      <button class="contactButton">Contact Me</button>
+      <p>Let's create awesome stuff together!</p>
+      <p class="nomargin">
+        You can email me at
+        <a href="mailto:conrade2005@yahoo.com">conrade2005@yahoo.com</a> or use
+        the contact form below
+      </p>
+      <form
+        class="contactForm"
+        action="mailto:conrade2005@yahoo.com"
+        method="post"
+      >
+        <div class="formContainer">
+          <div class="contactFormEntries">
+            <label for="fName">Name:</label><br />
+            <input
+              type="text"
+              name="fName"
+              id="fName"
+              placeholder="Full Name"
+            /><br />
+            <label for="email">Email Address:</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="username@domain.com"
+            /><br />
+            <label for="message">Your Message:</label><br />
+            <textarea name="message" id="message" rows="10"></textarea><br />
+            <button type="submit" class="contactButton">Send</button>
+          </div>
+        </div>
+      </form>
     </div>
     <footer>
       <div class="link">
-        <a href="https://www.linkedin.com/in/prince-del-pena" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.png" alt="linkedin-img"> LinkedIn</a>
-        <a href="https://www.facebook.com/princedel.pena" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="facebook-img"> Facebook</a>
+        <a
+          href="https://www.linkedin.com/in/prince-del-pena"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="images/linkedin.png" alt="linkedin-img"
+        /></a>
+        <a
+          href="https://www.facebook.com/princedel.pena"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="images/facebook.png" alt="facebook-img"
+        /></a>
       </div>
-      <p>&copy;2020 Prince Del Peña</p>
+      <p>&copy;Prince Del Peña</p>
     </footer>
   </body>
 </html>
